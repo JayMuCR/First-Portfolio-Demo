@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--=============== FAVICON ===============-->
+    <link
+      rel="shortcut icon"
+      href="assets/img/favicon.png.jpg"
+      type="image/x-icon"
+    />
+
+    <!--=============== BOXICONS ===============-->
+    <link
+      href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <title>Javier's Portfolio</title>
+  </head>
+  <body>
+    <!--=============== HEADER ===============-->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo">Javier</a>
+
+        <div class="nav__menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link">
+                <i class="bx bx-home-alt"></i>
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#about" class="nav__link">
+                <i class="bx bx-user"></i>
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#skills" class="nav__link">
+                <i class="bx bx-book"></i>
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#work" class="nav__link">
+                <i class="bx bx-briefcase"></i>
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">
+                <i class="bx bx-message-square-detail"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- theme change button -->
+        <i class="bx bx-moon change-theme" id="theme-button"></i>
+      </nav>
+    </header>
+
+    <!--=============== MAIN ===============-->
+    <main class="main">
+      <!--=============== HOME ===============-->
+      <section class="home section" id="home">
+        <div class="home__container container grid">
+          <div class="home__data">
+            <span class="home__greeting">Hello, I'm</span>
+            <h1 class="home__name">Javier Murillo</h1>
+            <h3 class="class__education">Frontend Developer</h3>
+
+            <div class="home__buttons">
+              <a
+                download=""
+                href="assets/pdf/Javier Murillo.pdf"
+                class="button button--ghost"
+                >Download my CV</a
+              >
+              <a href="#about" class="button">About me</a>
+            </div>
+          </div>
+          <div class="home__handle">
+            <img
+              src="assets/img/ps.jpeg"
+              alt="profile picture"
+              class="home__img"
+            />
+          </div>
+
+          <div class="home__social">
+            <a
+              href="https://www.linkedin.com/in/jaymu/"
+              target="_blank" class="home__social-link"
+              ><i class="bx bxl-linkedin-square"></i>
+            </a>
+            <a href="https://github.com/JayMuCR" target="_blank" class="home__social-link">
+              <i class="bx bxl-github"></i
+            ></a>
+            <a
+              href="https://www.instagram.com/_.no.username.available._/"
+              target="_blank" class="home__social-link"
+              ><i class="bx bxl-instagram"></i>
+            </a>
+          </div>
+
+          <a href="#about" class="home__scroll">
+            <i class="bx bx-mouse home__scroll-icon"></i>
+            <span class="home__scroll-name">Scroll Down</span>
+          </a>
+        </div>
+      </section>
+
+      <!--=============== ABOUT ===============-->
+      <section class="about section" id="about">
+        <span class="section__subtitle">My Intro</span>
+        <h2 class="section__title">About Me</h2>
+
+        <div class="about__container container grid">
+          <img src="assets/img/first.jpeg" alt="" class="about__img" />
+          <div class="about__data">
+            <div class="about__info">
+              <div class="about__box">
+                <i class="bx bx-award about__icon"></i>
+                <h3 class="about__title">Experience</h3>
+                <span class="about__subtitle"> 6-8 months coding</span>
+              </div>
+
+              <div class="about__box">
+                <i class="bx bx-briefcase-alt about__icon"></i>
+                <h3 class="about__title">Completed</h3>
+                <span class="about__subtitle">30+projects</span>
+              </div>
+
+              <div class="about__box">
+                <i class="bx bx-support about__icon"></i>
+                <h3 class="about__title">Availability</h3>
+                <span class="about__subtitle">Online 24/7</span>
+              </div>
+            </div>
+
+            <p class="about__description">
+              I'm a Web developer based in Costa Rica. I create really cool web pages. I like being creative and a non-stop learner. 
+              <br>
+              <br>
+              I am mentioning some of my abilities down below, but not all of them.
+              <br> Please visit my LinkedIn page to check all the things I have worked with, or just click on the button below to get in touch with me.
+            </p>
+
+            <a href="#contact" class="button">Contact Me</a>
+          </div>
+        </div>
+      </section>
+
+      <!--=============== SKILLS ===============-->
+      <section class="skills section" id="skills">
+        <span class="section__subtitle">My Abilities</span>
+        <h2 class="section__title">My Experience</h2>
+
+        <div class="skills__container container grid">
+          <div class="skills__content">
+            <h3 class="skills__title">Frontend Developer</h3>
+
+            <div class="skills__box">
+              <div class="skills__group">
+                <div class="skills__data">
+                  <i class="bx bx-badge-check"></i>
+                  <div>
+                      <h3 class="skills__name">HTML</h3>
+                      
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                    <i class="bx bx-badge-check"></i>
+                    <div>
+                        <h3 class="skills__name">CSS</h3>
+                        
+                    </div>
+                  </div>
+                  
+                  <div class="skills__data">
+                    <i class="bx bx-badge-check"></i>
+                    <div>
+                        <h3 class="skills__name">JavaScript</h3>
+                        
+                    </div>
+                  </div>
+              </div>
+
+              <div class="skills__group">
+                <div class="skills__data">
+                  <i class="bx bx-badge-check"></i>
+                  <div>
+                      <h3 class="skills__name">Bootstrap and Sass</h3>
+                      
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                    <i class="bx bx-badge-check"></i>
+                    <div>
+                        <h3 class="skills__name">Git</h3>
+                        
+                    </div>
+                  </div>
+                  
+                  <div class="skills__data">
+                    <i class="bx bx-badge-check"></i>
+                    <div>
+                        <h3 class="skills__name">React</h3>
+                        
+                    </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="skills__content">
+            <h3 class="skills__title">Backend Developer</h3>
+
+            <div class="skills__box">
+              <div class="skills__group">
+                <div class="skills__data">
+                  <i class="bx bx-badge-check"></i>
+                  <div>
+                      <h3 class="skills__name">PHP</h3>
+                     
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                    <i class="bx bx-badge-check"></i>
+                    <div>
+                        <h3 class="skills__name">NodeJS</h3>
+                       
+                    </div>
+                  </div>
+                  
+                  <div class="skills__data">
+                    <i class="bx bx-badge-check"></i>
+                    <div>
+                        <h3 class="skills__name">MySQL</h3>
+                       
+                    </div>
+                  </div>
+                  
+              </div>
+              
+              <div class="skills__group">
+                <div class="skills__data">
+                  <i class="bx bx-badge-check"></i>
+                  <div>
+                      <h3 class="skills__name">MariaDB</h3>
+                     
+                  </div>
+                  
+                </div>
+                <!-- <div class="skills__data">
+                  <i class="bx bx-badge-check"></i>
+                  <div>
+                      <h3 class="skills__name"></h3>
+                     
+                  </div> -->
+                </div>
+
+
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--=============== WORK ===============-->
+      <section class="work section" id="work">
+        <span class="section__subtitle">My Portfolio</span>
+        <h2 class="section__title">Recent Works</h2>
+
+        <div class="work__container container grid">
+            <div class="work__card">
+                <img src="assets/img/portfolio.png" alt="Image representing a portfolio" class="work__img">
+                <h3 class="work__title">My Personal Portfolio</h3>
+                <a href="https://github.com/JayMuCR" class="work__button" target="_blank" >
+                    Click here to see some of my projects
+                    <i class='bx bx-up-arrow-alt work__icon' ></i>
+                </a>
+            </div>
+        </div>
+      </section>
+
+      <!--=============== CONTACT ===============-->
+      <section class="contact section" id="contact">
+        <span class="section__subtitle">Get in touch</span>
+        <h2 class="section__title">Contact Me</h2>
+
+        <div class="contact__container container grid">
+          <div class="contact__content">
+          <h3 class="contact__title">Do you want to get in touch with me?</h3>
+
+          <div class="contact__info">
+            <div class="contact__card">
+              <i class='bx bx-mail-send contact__card-icon'></i>
+              <h3 class="contact__card-title">Email</h3>
+              <span class="contact__card-data">jaymu.cr00@gmail.com</span>
+
+              <a href="mailto:jaymu.cr00@gmail.com" target="_blank" class="contact__button">
+                Send me an email <i class='bx bx-up-arrow-alt contact__button-icon' ></i>
+              </a>
+            </div>
+            
+            <div class="contact__card">
+              <i class='bx bxl-whatsapp contact__card-icon' ></i>
+              <h3 class="contact__card-title">WhatsApp</h3>
+              <span class="contact__card-data">+(506) 7130-1928</span>
+
+              <a href="https://wa.me/50671301928/?text=Hello,%20I%20want%20more%20information!" target="_blank" class="contact__button">
+                Hit me up <i class='bx bx-up-arrow-alt contact__button-icon' ></i>
+              </a>
+            </div>
+            
+            <div class="contact__card">
+              <i class='bx bxl-instagram contact__card-icon' ></i>
+              <h3 class="contact__card-title">Instagram</h3>
+              <span class="contact__card-data">_.no.username.available._</span>
+
+              <a href="https://www.instagram.com/_.no.username.available._/" target="_blank" class="contact__button">
+                Reach out to me <i class='bx bx-up-arrow-alt contact__button-icon' ></i>
+                
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact__content">
+          <h3 class="contact__title">Or, just simply tell me about your project:</h3>
+          <form  id="email_form" class="contact__form">
+            <div class="contact__form-div">
+              <label for="" class="contact__form-tag" id="cxName" name="subject" name="text">Name</label>
+              <input type="text" placeholder="Insert your name" class="contact__form-input">
+            </div>
+
+            <div class="contact__form-div">
+              <label for="" class="contact__form-tag" id="cxEmail" name="reply_to">Email</label>
+              <input type="email" placeholder="Insert your email address" class="contact__form-input">
+            </div>
+
+            <div class="contact__form-div contact__form-area">
+              <label for="" class="contact__form-tag" id="cxDescription">Project</label>
+              <textarea name="" id="" cols="30" rows="10" placeholder="Tell me about your project" class="contact__form-input"></textarea>
+          
+            </div>
+
+
+            <button class="button" type="submit" id="sendEmail" value="Send">Send Message</button>
+            
+          </form>
+        </div>
+
+
+
+        </div>
+      </section>
+    </main>
+
+    <!--=============== FOOTER ===============-->
+    <footer class="footer">
+<div class="footer_container container">
+  <h1 class="footer__title">Javier</h1>
+  <ul class="footer__list">
+    <li>
+      <a href="#about" class="footer__link">About</a>
+    </li>
+
+    <li>
+      <a href="#work" class="footer__link">My Portfolio</a>
+    </li>
+
+    <li>
+      <a href="#contact" class="footer__link">Contact Me</a>
+    </li>
+  </ul>
+
+  <ul class="footer__social">
+    <a href="https://www.facebook.com/javier.murillo.16752/" target="_blank" class="footer__social-link">
+      <i class='bx bxl-facebook' ></i>
+    </a>
+
+    <a href="https://www.instagram.com/_.no.username.available._/" target="_blank" class="footer__social-link">
+      <i class='bx bxl-instagram' ></i>
+    </a>
+
+    <a href="https://www.linkedin.com/in/jaymu/" target="_blank" class="footer__social-link">
+      <i class='bx bxl-linkedin' ></i>
+    </a>
+  </ul>
+
+  <span class="footer__copy">
+    &#169; Javier M. All rights reserved.
+  </span>
+    </div>
+  </footer>
+
+    <!--=============== SCROLLREVEAL ===============-->
+    <script src="assets/js/scrollreveal.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
